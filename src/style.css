@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 1px solid black;
-} */
+}
 
 .body {
     margin: 0;
@@ -25,12 +25,12 @@
     width: 100%;
 }
 
-.wrapper__header {
+.header__wrapper {
     margin-top: 38px;
     margin-bottom: 234px;
 }
 
-.wrapper__main {
+.main__wrapper {
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -39,7 +39,7 @@
     height: 193px;
 }
 
-.wrapper__footer {
+.footer__wrapper {
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -58,4 +58,19 @@
 
 .search-partners {
     height: 153px;
+}
+
+.how-it-works__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step {
+    width: 300px;
+    height: 400px;
+}
+
+.partner__content {
+    display: flex;
+    justify-content: space-between;
 }
