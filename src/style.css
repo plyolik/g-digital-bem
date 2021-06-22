@@ -20,6 +20,7 @@
 
 .body {
     margin: 0;
+    cursor: default;
 }
 
 .header, .main, .footer {
@@ -40,6 +41,7 @@
     height: 700px;
     width: 100%;
     background-image: url(../assets/img/header-bg.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/img/header-bg.png);
 }
 
 .header__wrapper {
@@ -119,6 +121,7 @@
     font-weight: bold;
     font-size: 14px;
     font-family: "Montserrat";
+    cursor: pointer;
 
 }
 
@@ -194,14 +197,21 @@
 
 .step1 {
     background-image: url(../assets/img/Rectangle\ 4.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/img/Rectangle\ 4.png);
+
+    
 }
 
 .step2 {
     background-image: url(../assets/img/step2.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/img/step2.png);
+
 }
 
 .step3 {
     background-image: url(../assets/img/step3.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/img/step3.png);
+
 }
 
 .step__btn {
