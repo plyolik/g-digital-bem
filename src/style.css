@@ -14,6 +14,10 @@
     src: url(../assets/fonts/Roboto.ttf);
 }
 
+.viev-tele {
+    display: none !important;
+}
+
 .body {
     margin: 0;
     cursor: default;
@@ -33,6 +37,7 @@
 }
 
 .header {
+    margin: 0 auto;
     max-width:1440px;
     height: 700px;
     width: 100%;
@@ -54,11 +59,6 @@
     margin-top: 37px;
     display: flex;
     justify-content: space-between;
-}
-
-
-.ideas {
-    padding-top: 7px;
 }
 
 
@@ -326,6 +326,7 @@
     width: 100%;
     max-width:1440px;
     background-color: rgb(255, 78, 80);
+    margin: 0 auto;
 }
 
 .footer__logo {
@@ -466,11 +467,6 @@
     margin: auto;
 }
 
-
-
-
-
-
 @media screen and (max-width: 768px) {
     .wrapper {
         width: 748px;
@@ -510,10 +506,6 @@
         width: 492px;
     }
 
-    .ideas {
-        padding: 0;
-    }
-
     .footer__wrapper {
         margin: 33px 39px 0;
     }
@@ -531,9 +523,170 @@
     .footer__logo {
         flex: 0;
     }
+}
 
 
+@media screen and (max-width: 320px) {
 
+    .header {
+        height: 540px;
+    }
+
+    .wrapper {
+        width: 300px;
+    }
+
+    .header__wrapper {
+        margin: 19px 10px 0;
+    }
+
+    .main__wrapper {
+        margin-top: 33px;
+    }
+
+    .header__nav-bar {
+        flex-direction: column-reverse;
+    }
+
+    
+    .auth {
+        justify-content: center;
+    }
+
+    .auth__log-in {
+        margin: 0px 20px;
+    }
+
+    .btn-sing-up {
+        margin: 0 20px 0 0;
+    }
+
+    .header__logo {
+        margin-top: 115px;
+    }
+
+    .header__title {
+        margin: 27px 0 0;
+    }
+
+    .header__h1 {
+        font-size: 30px;
+        /* -moz-transform: matrix( 1.00087739777983,0,0,0.99950991603228,0,0);
+        -webkit-transform: matrix( 1.00087739777983,0,0,0.99950991603228,0,0);
+        -ms-transform: matrix( 1.00087739777983,0,0,0.99950991603228,0,0); */
+    }
+
+    .header__p {
+        font-size: 18px;
+        margin: 11px 35px;
+    }
+
+    .header__btn {
+        width: 280px;
+    }
+
+    .how-it-works__content {
+        margin-top: 17px;
+        flex-wrap: wrap;
+    }
+
+    .step {
+        width: 300px;
+        height: 240px;
+        margin: 0px 0 9px 0;
+    }
+
+    .mb100 {
+        margin-bottom: 25px;
+    }
+
+    .partner__members {
+        margin: 17px 40px 0;
+    }
+
+    .member {
+        margin-bottom: 27px;
+    }
+
+    .view-table {
+        display: none;
+    }
+
+    .viev-tele {
+        display: block !important;
+    }
+
+    .partner__btn {
+        width: 280px;
+        margin: 2px 5px 0 0;
+    }
+
+    .ideas {
+        padding-top: 8px;
+    }
+
+    .ideas__grid {
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .elem {
+        width: 300px;
+        height: 120px;
+    }
+
+    .elem__grid6, .elem__grid2, .elem__grid4 {
+        margin: 10px 0;
+    }
+
+    .search-partners {
+        padding: 10px 0 0 0;
+    }
+
+    .search-partners__p {
+        margin: 14px 0;
+    }
+
+    .search-partners__input {
+        width: 252px;
+    }
+
+    .search-partners__btn {
+        width: 284px;
+        margin: 10px 4px 0 0;
+    }
+
+    .main__wrapper {
+        margin-bottom: 37px;
+    }
+
+    .footer__wrapper {
+        margin: 15px 10px 0;
+        flex-direction: column;
+    }
+
+    .footer__nav {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .nav__menu {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 52px -4px;
+    }
+
+    .footer__logo {
+        text-align: center;
+        margin: 0 0 12px 0;
+    }
+
+    .promo__h4, .promo {
+        text-align: center;
+    }
 
 
 
