@@ -46,7 +46,6 @@
     height: 700px;
     width: 100%;
     background-image: url(../assets/img/header-bg.png);
-    /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/img/header-bg.png); */
     background-position: center;
     background-size: cover;
 }
@@ -85,7 +84,6 @@
 
 .logo {
     font-size: 20px;
-    /* line-height: 1.2; */
     text-align: center;
     font-family: "Montserrat";
     font-weight: 900;
@@ -144,7 +142,7 @@
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
-    /* line-height: 1.2; */
+    
     text-align: center;
     margin: 0;
 }
@@ -157,7 +155,7 @@
 
 .p {
     font-family: "Roboto";
-    /* line-height: 1.2; */
+    
     text-align: center;
 }
 
@@ -185,7 +183,7 @@
     font-family: "Montserrat";
     color: rgb(51, 51, 51);
     font-weight: bold;
-    /* line-height: 1.2; */
+    
     text-align: center;    
     margin: 0;  
 }
@@ -250,7 +248,7 @@
     font-family: "Montserrat";
     color: rgb(51, 51, 51);
     font-weight: bold;
-    /* line-height: 1.2; */
+    
     text-align: center;
     margin-bottom: 14px;
 
